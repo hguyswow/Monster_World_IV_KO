@@ -2,6 +2,18 @@
 
 1994년 세가(SEGA)/웨스톤(Westone)의 메가드라이브 액션 RPG **『몬스터 월드 IV (Monster World IV)』** 일본어판 롬을 한국어로 바꾸는 비공식 IPS 패치입니다. 롬은 포함되어 있지 않습니다.
 
+
+## 스크린샷 / Screenshots
+
+| | |
+|---|---|
+| ![title](screenshots/01_title.png) 타이틀 | ![intro](screenshots/02_dialog_intro.png) 도입부 대사 |
+| ![yesno](screenshots/03_save_yes_no.png) 저장 / 예·아니오 메뉴 | ![palace](screenshots/04_dialog_palace.png) 궁전 대사 |
+| ![menu](screenshots/05_equipment_menu.png) 장비 메뉴 | ![credit](screenshots/06_credit_dialog.png) 제작자 표시 |
+
+*Screenshots are from an emulator (BizHawk). Game graphics (c) SEGA / Westone. This repository contains no ROM.*
+
+
 ## 1. 필요한 원본 롬
 
 - 일본어판 `Monster World IV (Japan)`, 카트리지 번호 **GM G-5519**
