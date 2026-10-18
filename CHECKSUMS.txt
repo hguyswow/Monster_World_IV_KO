@@ -1,0 +1,21 @@
+# Monster World IV (메가드라이브) 한글화 패키지 무결성 검증 체크섬 (SHA256)
+
+# 1. 패치 대상 원본 ROM (정품 일본어판)
+# 파일명: Monster World IV (Japan).md (GM G-5519-01)
+# 파일 크기: 2,097,152 바이트
+# 헤더 체크섬: 0x77AE
+3796F407AE0BF3B74BBE53335ADF57F295F0BF53EF7D82B603AC73350EAC8CAE *Monster World IV (Japan).md
+
+# 2. 한글화 IPS 패치 파일
+# 파일명: monster4_ko.ips
+# 파일 크기: 69,067 바이트
+C90101725FDE092245876EC44C01B34FF888F0923B4A65D66A4388B5AB807408 *monster4_ko.ips
+
+# 3. 패치 적용 후 생성되는 한글화 완성 ROM
+# 파일명: Monster World IV (Korean).md
+# 파일 크기: 2,097,152 바이트
+# 헤더 체크섬: 0x5D76
+7095A4A82AC132DEDE3A42CD6A77D9E568AC1C801F84A8B239AB96093345E398 *Monster World IV (Korean).md
+
+# 4. 폰트 라이선스 (Neo둥근모, SIL OFL 1.1)
+C1997F54B659FF8BBE2ADDF4E7F03FB823DB7D1B81B043FB2633183B1FC0C2F0 *FONT_LICENSE_NeoDunggeunmo_OFL.txt
