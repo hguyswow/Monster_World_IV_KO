@@ -1,5 +1,35 @@
 # 몬스터 월드 IV (Monster World IV) 메가드라이브 한글화 패치
 
+> ## 🔰 처음이신가요? 3분 적용 가이드 (Quick Start)
+>
+> **준비물**: ① 일본어판 `Monster World IV (Japan)` 롬 파일 (본인이 가진 카트리지에서 받은 파일) ② 이 저장소의 패치 파일 `monster4_ko.ips`
+> (※ 롬은 이 저장소에 들어 있지 않습니다. 영문판/미국판(Virtual Console) 롬에는 적용되지 않습니다.)
+>
+> ### 방법 A — 웹에서 바로 적용 (설치 필요 없음, 제일 쉬움)
+> 1. 오른쪽 **Releases** 에서 `Monster_World_IV_KO_patch_v1.0.zip` 을 받아 압축을 풉니다.
+> 2. 브라우저에서 **Rom Patcher JS** 를 엽니다: https://www.marcrobledo.com/RomPatcher.js/
+> 3. **ROM file** 칸에 일본어판 롬 파일을 넣고, **Patch file** 칸에 `monster4_ko.ips` 를 넣습니다.
+> 4. **Apply patch** 를 누르면 한글화된 롬 파일이 다운로드됩니다. (파일명을 `mw4ko.md` 처럼 짧은 영문으로 바꾸면 편합니다.)
+>
+> ### 방법 B — 파이썬이 있다면 (안전 검사 포함)
+> 압축 푼 폴더에서 `python apply_patch.py "일본어판롬경로"` 를 실행하면 원본 롬 확인 → 패치 → 결과 확인까지 자동으로 해줍니다.
+>
+> ### 잘 됐는지 확인
+> 결과 롬 파일 크기가 **2,097,152 바이트**이고, 해시(SHA256)가 `7095A4A82AC132DEDE3A42CD6A77D9E568AC1C801F84A8B239AB96093345E398` 이면 정상입니다. (원본 일본어판 해시: `3796F407AE0BF3B74BBE53335ADF57F295F0BF53EF7D82B603AC73350EAC8CAE`)
+>
+> ### 플레이 방법
+> - **PC 에뮬레이터**: BizHawk, Genesis Plus GX(RetroArch), Kega Fusion 등에서 결과 롬을 열면 됩니다.
+> - **플래시카트(MD v3 Pro 등)**: 결과 롬을 SD카드에 복사해서 실행합니다. 파일명은 짧은 영문/숫자로, 확장자는 `.md` 또는 `.bin` 이 안전합니다.
+>
+> ### 안 될 때
+> - 패처가 "체크섬 불일치" 경고를 내면 → 롬이 일본어판이 아니거나 형태가 다른 덤프입니다. 위 원본 해시와 비교해 보세요.
+> - 화면이 깨지거나 시작이 안 되면 → 영문판(미국/유럽) 롬에 적용했는지 확인하세요.
+> - 그래도 안 되면 **Issues** 에 롬 파일 크기와 해시값(롬 자체는 올리지 마세요), 증상을 적어 주세요.
+>
+> ---
+> **English quick start**: Get your own dump of *Monster World IV (Japan)* (2,097,152 bytes, SHA256 `3796F407…EAC8CAE`). Download the ZIP from Releases, then apply `monster4_ko.ips` with any IPS patcher (e.g. https://www.marcrobledo.com/RomPatcher.js/ or `python apply_patch.py "rom"`). Expected result SHA256: `7095A4A8…45E398`. The patch will NOT work on the USA/EU Virtual Console ROM. No ROM is included here.
+
+
 1994년 세가(SEGA)/웨스톤(Westone)의 메가드라이브 액션 RPG **『몬스터 월드 IV (Monster World IV)』** 일본어판 롬을 한국어로 바꾸는 비공식 IPS 패치입니다. 롬은 포함되어 있지 않습니다.
 
 
